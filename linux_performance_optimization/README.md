@@ -190,3 +190,37 @@ https://time.geekbang.org/column/intro/140
 
 ```
 
+## Linux 性能工具速查
+
+Linux 的性能工具
+![Linux performance tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/Linux%20performance%20tools.png  "Linux performance tools")
+
+
+常见的 CPU 性能指标
+![cpu_performance_metric](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/cpu_performance_metric.png  "cpu_performance_metric")
+
+CPU 性能工具速查表
+![cpu_performance_tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/cpu_performance_tools.png  "cpu_performance_tools")
+
+常见的内存性能指标
+![memory performance metric](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/memory%20performance%20metric.png  "memory performance metric")
+
+内存性能工具速查表
+![memory performance tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/memory%20performance%20tools.png  "memory performance tools")
+
+常见的 I/O 性能指标
+![IO_performance_metric](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/IO_performance_metric.png  "IO_performance_metric")
+
+文件系统和磁盘 I/O 性能工具速查表
+![IO_performance_tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/IO_performance_tools.png  "IO_performance_tools")
+
+常见的网络性能指标
+![network_performance_metric](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/network_performance_metric.png  "network_performance_metric")
+
+网络性能工具速查表
+![network_performance_tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/network_performance_tools.png  "network_performance_tools")
+
+Brendan Gregg 整理的 Linux 基准测试工具图谱
+![linux_performance_banchmark_tools](https://github.com/yumushui/net_resource/blob/master/linux_performance_optimization/picture/linux_performance_banchmark_tools.png  "linux_performance_banchmark_tools")
+
+
