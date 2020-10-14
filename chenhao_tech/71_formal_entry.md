@@ -15,7 +15,7 @@
 在系统地学习编程技能之前，我希望你能先看一下这篇文章，它会告诉你如何有效地快速提高自己的编程能力。
 ```
 The Key of Accelerating Your Coding Skills
-
+http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/
 ```
 
 然后接下来是下面几大块内容，但还只是入门级的。
@@ -25,7 +25,7 @@ The Key of Accelerating Your Coding Skills
 你可以开始看怎么把程序写好的书了，这里推荐的是《代码大全》。
 ```
 代码大全
-
+https://book.douban.com/subject/1477390/
 ```
 这本书好多年没有更新了，其中有一些内容可能过时了，但还是一本非常好的书，有点厚，你不需要马上看完。在你的编程路上，这本书可以陪你走很久，因为当你有更多的编程经验时，才过更多坑之后，再把这本书拿出来看看，你会更有体会。
 **好的书和不好的书最大的区别就是，好的书在你不同的阶段来读，你会有不同的收获，而且还会产生更多的深层次的思考！**《代码大全》就是这样的一本好书。
@@ -36,9 +36,10 @@ The Key of Accelerating Your Coding Skills
 这个阶段，你可以开始了解一下 Java语言来，我个人觉得 Java 是世界上目前为止综合排名最好的语言。你一定要学好这门语言。
 ```
 Java 核心技术（卷1）
+https://book.douban.com/subject/26880667/
 
 Head First Java
-
+https://book.douban.com/subject/2000732/
 ```
 推荐《Java核心技术（卷1）》，除了让你了解 Java语法，它还会让你了解面向对象编程是个什么概念。
 如果你觉得这本书有点深，那么，你可以降低难度看更为基础的《Head First Java》。
@@ -46,13 +47,16 @@ Head First Java
 然后，既然开始学习 Java 了，那就一定要学 Spring，推荐看看《Spring in Action》。
 ```
 Spring in Action
-
+https://book.douban.com/subject/26767354/
 ```
 
 或者直接从最新的 Spring Boot 开始，推荐看看《Spring Boot 实战》
 ```
 Spring Boot 实战
-
+https://book.douban.com/subject/26857423/
 ```
 
-关于 Spring 的这两本书，里面可能会有很多你从来没有听过的东西，比如 IoC 和 AOP 之类的东西，能看懂
+关于 Spring 的这两本书，里面可能会有很多你从来没有听过的东西，比如 IoC 和 AOP 之类的东西，能看懂多少就看懂多少，没事。
+
+
+
