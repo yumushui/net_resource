@@ -28,6 +28,7 @@ Code Abbey
 http://www.codeabbey.com/index/task_list
 ```
 
+
 + 第二份入门教程，主要是让你做点实际有用的东西。嗯，做个网页吧。
 
 ```
@@ -42,6 +43,7 @@ MDN 全称是 Mozilla Developer Network，你可以认为是 Web方面的官方�
 ## 编程入门
 
 在这时，我们使用 Python 和 JavaScript 作为入门语言。Python 就不用多说了，语法比较简单，有大量的库和语法糖，是零基础的人学习编程的不二选择。
+
 而 JavaScript 则是前端的语言，为了让你更有编程的成就感，所以，这也成了一门要学习的语言。
 
 ###  入门语言 Python
@@ -128,7 +130,9 @@ https://www.w3schools.com/js/js_htmldom.asp
 + 后端基础
 
 如果你想省点事，不想学一门新的语言了，那么可以直接用 python 或 Node.js, 这两个在前面提到的廖雪峰的那个教程里提到过。
-当然如果你想实施另外一种脚本型的也是比较主流的编程语言，那么可以搞搞 PHP，它也是可以很快上手的语言，学习PHP语言，可以看这个教程，其中有连接 MySQL 的教程。
+
+当然如果你想试试另外一种脚本型的也是比较主流的编程语言，那么可以搞搞 PHP，它也是可以很快上手的语言，学习PHP语言，可以看这个教程，其中有连接 MySQL 的教程。
+
 ```
 W3School 的 PHP 教程
 https://www.w3school.com.cn/php/index.asp
