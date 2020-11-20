@@ -100,11 +100,149 @@ https://meta.stackexchange.com/questions/7931/faq-for-stack-exchange-sites
 
 除了 《代码大全》 外，你还需要补充一些如何写好代码的知识，有以下几本书推荐。
 
++ 《**重构：改善既有代码的设计**》，这本书是 Martin Fowler 的经典之作。这本书的意义不仅仅在于“改善既有代码的设计”，也指导了我们如何从零开始构建代码的时候避免不良的代码风格。这是一本程序员必读的书。
+
++ 《**修改代码的艺术**》，这本书是继《重构》之后探讨修改代码技术的又一里程碑式的著作，而且从涵盖面和深度上都超过了前两部经典（《代码大全》和《重构》）。作者将理解、测试和修改代码的原理、技术和最新工具（自动化重构工具、单元测试框架、仿对象、集成测试框架等），与解依赖技术和大量开发和设计优秀代码的原则、最佳实践相结合，许多内容非常深入。这本书不仅可以帮你掌握最顶尖的修改代码技术，还可以大大提高你对代码和软件开发的领悟力。
+
++ 《**代码整洁之道**》，这本书提出一种观念： 代码质量与其整洁度成正比。干净的代码，既在代码质量上较为可靠，也为后期维护和升级奠定了良好的基础。本书作者给出了一系列行之有效的整洁代码操作实践。这些实践在本书中体现为一条条规则，并辅以来自现实项目的正反两面的范例。
+
++ 《**程序员的职业素养**》，这本书是编程大师 Bob 大叔 40 余年编程生涯的心得体会，讲解成为真正专业的程序员需要什么养的态度、原则，需要采取什么样的行动。作者以自己以及身边的同时走过的弯路、犯过的错误为例，意在为后来人引路，助其职业生涯迈上更高台阶。
+
+另外，作为一个程序员，Code Review 是非常重要的程序员素养。Code Review 对我的成长非常有帮助，我认为没有 Code Review 的公司都没有必要呆（因为不做 Code Review 的公司一定是不尊重技术的）。下面有几篇我觉得还不错的 Code Review 的文章，供你参考。
+
++ **Code Review Best Practices**
++ **How Google Does Code Review**
++ **LinkedIn's  Tips for Highly Effective Code Review**
+
+除了 Code Review 之外，Unit Test 也是程序员的一个很重要的修养。写 Unit Test 的框架一般来说都是从 JUnit 衍生出来的，比如 CppUnit 之类的。学习 JUnit 使用的最好方式就是到其官网上看 **JUnit User Guide** (**JUnit User Guide 中文版**)。然后有几篇文章你可以看看（也可以自行 Google）：
+
++ **You Still Don't Know How to Do Unit Testing**
++ **Unit Testing Best Practices: JUnit Reference Guide**
++ **JUit Best Practices**
+  
+
+```
+重构：改善既有代码的设计
+https://book.douban.com/subject/4262627/
+
+修改代码的艺术
+https://book.douban.com/subject/2248759/
+
+代码整洁之道
+https://book.douban.com/subject/4199741/
+
+程序员的职业素养
+https://book.douban.com/subject/11614538/
+
+Code Review Best Practices
+https://medium.com/palantir/code-review-best-practices-19e02780015f
+
+How Google Does Code Review
+https://dzone.com/articles/how-google-does-code-review
+
+LinkedIn's  Tips for Highly Effective Code Review
+https://thenewstack.io/linkedin-code-review/
+
+JUnit User Guide
+https://junit.org/junit5/docs/current/user-guide/
+
+JUnit User Guide 中文版
+http://sjyuan.cc/junit5/user-guide-cn/
+
+You Still Don't Know How to Do Unit Testing
+https://stackify.com/unit-testing-basics-best-practices/
+
+Unit Testing Best Practices: JUnit Reference Guide
+https://dzone.com/articles/unit-testing-best-practices
+
+JUit Best Practices
+http://www.kyleblaney.com/junit-best-practices/
+
+```
+
 ##  安全防范
+
+在代码中没有最基本的安全漏洞问题，也是我们程序员必须要保证的重要大事，尤其是对外暴露 Web 服务的软件，其安全性就更为重要了。对于在 Web 上经常出现的安全问题，有必要介绍一下 **OWASP - Open Web Application Security Project**。
+
+OWASP 是一个开源的、非盈利的全球安全组织，致力于应用软件的安全研究。其被视为 Web 应用安全领域的权威参考。2009 年，国际信用卡数据安全技术 PCI 标准将其列为必要组件，美国国防信息系统局、欧洲网络与信息安全局、美国国家安全局等政府机构所发布的美国国家和国际立法、标准、准则和行业实务守则参考引用了 OWASP。
+
+美国联邦贸易委员会（FTC）强烈建议所有企业需遵循 OWASP 十大 Web 弱点防护守则。所以，对于[OWASP Top 10 项目] （**http://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project**） 是程序员非常需要关注的最基本也是最严重的安全问题，现在其已经成了一种标准，这里是其中文版《**OWASP Top 10 2017 PDF 中文版**》。
+
+下面是安全编程方面的一些 Guideline。
+
++ **伯克立大学的 Secure Coding Practice Guidelines**。
++ **卡内基梅隆大学的 SEI CERT Coding Standards**。
+
+最后想说的是“防御性编程”，英文名叫**Defensive Programming**，它是为了保证对程序的不可预见的使用，不会造成程序功能上的损坏。它可以被看作是为了减少或消除墨菲定律效力的想法。防御式编程主要用于可能被滥用，恶作剧或无意地造成灾难性影响的程序上。下面是一些文章。
+
++ **The Art of Defensive Programming**。
++ 当然，也别太过渡了，这篇文章可以看看，**Overly defensive programming**。
+
+```
+OWASP - Open Web Application Security Project
+https://owasp.org/
+
+http://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
+https://owasp.org/www-project-top-ten/
+
+OWASP Top 10 2017 PDF 中文版
+https://owasp.org/images/d/dc/OWASP_Top_10_2017_%E4%B8%AD%E6%96%87%E7%89%88v1.3.pdf
+
+伯克立大学的 Secure Coding Practice Guidelines
+https://security.berkeley.edu/secure-coding-practice-guidelines
+
+卡内基梅隆大学的 SEI CERT Coding Standards
+https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards
+
+The Art of Defensive Programming
+https://www.keycdn.com/blog/http-security-headers
+
+Overly defensive programming
+https://en.wikipedia.org/wiki/Defensive_programming
+
+```
 
 ##  软件工程和上线
 
+系统上线是一件比较严肃的事，这表明你写的软件并不是泡在自己的机器上的玩具，或是实验室里的实验品，而是交付别用户使用的，甚至是用户付费的软件。对于这样的软件或系统，我们需要遵守一些上线规范，比如，需要认真测试，并做上线前检查，以及上线后监控。下面是几个简单的规范，供你参考。
+
++ 关于测试，推荐两本书。
+
+  - 《**完美软件：对软件测试的各种幻想**》，这本书重点讨论了与软件测试有关的各种心里问题及其表现和应对方法。作者首先阐述软件测试之所以如此困难的原因——人的思维不是完美的，而软件测试的最终目的就是发现对改善软件产品和软件开发过程有益的信息，故软件测试是一个信息获取的过程。
+  - 《**Google 软件测试之道**》，描述了测试解决方案，解释了测试架构是如何设计、实现和运行的，介绍了软件工程师的角色；讲解了技术测试人员应该具有的技术技能；阐述了测试工程师在产品生命周期中的职责；讲述了测试管理，并对在 Google 的测试历史上或者主要产品上发挥了重要作用的工程师的访谈，这令那些试图建立类似 Google 的测试流程或团队的人受益很大。
+
++ 当你的系统要上线时，你是不是以及做好上线的准备了？这里有两个 Checklist 供你做上线前的一些检查。
+
+  - **Server Side checklist**
+  - **Single Page App Checklist**
+  - 《**Monitoring 101**》这是一篇运维方面的入门文章，告诉你最基本的监控线上运行软件的方法和实践。
+
+
+```
+完美软件：对软件测试的各种幻想
+https://book.douban.com/subject/4187479/
+
+Google 软件测试之道
+https://book.douban.com/subject/25742200/
+
+Server Side checklist
+https://github.com/mtdvio/going-to-production/blob/master/serverside-checklist.md
+
+Single Page App Checklist
+https://github.com/mtdvio/going-to-production/blob/master/spa-checklist.md
+
+Monitoring 101
+https://www.datadoghq.com/blog/monitoring-101-collecting-data/
+
+```
+
 ##  总结
+
+好了，总结一下今天分享的主要内容。程序员修养看似与程序员练级关系不大，实际上却能反映出程序员的工程师特质和价值观，决定了这条路你到底能走多远。**有修养的程序员可能成长为真正的工程师和架构师，而没有修养的程序员只能沦为码农**。
+
+因此，在这篇文章中，我指出了我认为比较重要的几个方面： 英文能力、问问题的能力、写代码的修养、安全防范意识、软件工程和上线规范等。这些能力的训练和培养将为后续的学习和发展夯实基础。
+
+
 
 
 ##  附录： 编程规范
@@ -121,18 +259,115 @@ https://meta.stackexchange.com/questions/7931/faq-for-stack-exchange-sites
 
 如果一个程序员没有这类规范和最佳实践的沉淀，那么是很难成为真正的程序员，只能沦为码农。
 
+当然，对于一些代码风格方面的东西，比如左大括号是否要换行，缩进是用 tab 还是空格等等，我觉得没有对错，只要团队统一就好了。
+
+下面，我罗列了一堆各种语言的编程规范，供你参考。
 
 ## 编程语言相关
 
 ###  C 语言
 
++ **NASA C Style**。
++ **C Coding Standard**。
++ **C Programming/Structure and style**。
++ **Linux kernel coding style**。
++ **GNU Coding Standard**，GNU 的编码规范。
+
+```
+NASA C Style
+http://homepages.inf.ed.ac.uk/dts/pm/Papers/nasa-c-style.pdf
+
+C Coding Standard
+https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html
+
+C Programming/Structure and style
+https://en.wikibooks.org/wiki/C_Programming/Structure_and_style
+
+Linux kernel coding style
+https://www.kernel.org/doc/html/latest/process/coding-style.html
+
+GNU Coding Standard**，GNU 的编码规范
+https://www.gnu.org/prep/standards/html_node/Writing-C.html
+
+```
+
 ###  C++ 语言
+
++ **C++ Core Guidelines**，这个文档是各种 C++ 的大拿包括原作者在内持续讨论更新的和 C++ 语言相关的各种最佳实践。
++ **Google C++ Style Guide**。
+
+```
+C++ Core Guidelines
+http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
+Google C++ Style Guide
+https://google.github.io/styleguide/cppguide.html
+```
 
 ###  Go 语言
 
++ **Effective Go**, Go 的语法不复杂，所以，Go 语言的最佳实践只需要看这篇官方文档就够了。
+
+```
+Effective Go
+https://golang.org/doc/effective_go.html
+
+```
+
 ###  Java 语言
 
++ **Code Conventions for the Java Programming Language**，Java 官方的编程规范。
++ **Google Java Style Guide**，Google 的 Java 编程规范。
+
+```
+Code Conventions for the Java Programming Language
+http://www.oracle.com/technetwork/java/codeconvtoc-136057.html
+
+Google Java Style Guide
+https://google.github.io/styleguide/javaguide.html
+
+```
+
 ###  JavaScript 语言
+
++ **Java Script The Right Way**，一个相对比较容易读的 JavaScript 编程规范，其中不但有代码规范，还有设计模式，测试工具，编程框架，游戏引擎 ......
++ **Google JavaScript Style Guide**，Google 公司的 JavaScript 的编码规范，一个非常大而全的编码规范。
++ **Airbnb JavaScript Style Guide**，Airbnb 的 JavaScript 编程规范。没 Google 的那么大而全，但是也很丰富了。
++ **jQuery Core Style Guide**，jQuery的代码规范。
++ **JavaScriptClean Code**，前面推荐郭的《代码整洁之道》一书中的 JavaScript 的实践。
+
+还有一些其他相对比较简单的 JavaScript 编程规范。
+
++ **JavaScript Style Guides And Beautifires**，这是一篇推荐 JavaScript 编程规范的文章，可以看看。
++ **JavaScript Style Guides and Coding conventions**，这是 W3Schools 的 javaScript。
++ **Code Conventions for the JavaScript**。
+
+```
+Java Script The Right Way
+http://jstherightway.org/
+
+Google JavaScript Style Guide.
+https://google.github.io/styleguide/jsguide.html
+
+Airbnb JavaScript Style Guide
+https://github.com/airbnb/javascript
+
+jQuery Core Style Guide
+http://contribute.jquery.org/style-guide/js/
+
+JavaScriptClean Code
+https://github.com/ryanmcdermott/clean-code-javascript
+
+JavaScript Style Guides And Beautifires
+https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
+
+JavaScript Style Guides and Coding conventions
+https://www.w3schools.com/js/js_conventions.asp
+
+Code Conventions for the JavaScript
+http://crockford.com/javascript/code.html
+
+```
 
 
 ###  PHP 语言
