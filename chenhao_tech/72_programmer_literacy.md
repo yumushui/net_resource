@@ -2,7 +2,7 @@
 
 + 72 程序员练级攻略： 程序员修养
 
-在完成以上的入门知识学习后，我们要向专业的计算机软件开发进军了。但是在学习那些专业的知识前，我们先要抽出一部分的篇幅来说一下程序员的修养。这是程序员的工程师文化，也就是程序员的价值观，因为我觉得如果你的技术修养不够的画，你学再多的知识也是没有用的。
+在完成以上的入门知识学习后，我们要向专业的计算机软件开发进军了。但是在学习那些专业的知识前，我们先要抽出一部分的篇幅来说一下程序员的修养。这是程序员的工程师文化，也就是程序员的价值观，因为我觉得如果你的技术修养不够的话，你学再多的知识也是没有用的。
 
 要了解程序员的修养，你可以先从 Quora 上的这个帖子开始：
 ```
@@ -25,7 +25,14 @@ https://www.quora.com/What-are-some-of-the-most-basic-things-every-programmer-sh
 + Always know how your business makes money, that determines who gets paid what.
 + If you want to feel important as a software developer, work at a tech company.
 
-然后是《97 Things Every Programmer Should Know》，其中有 97 个非常不错的编程方面的建议。这篇文章是比较经典的，别被“97”这个数字吓住，你可以快速浏览一下，会让你有不同感觉的。另外，在工作一段时间后再来读，你会更有感觉。
+然后是《**97 Things Every Programmer Should Know**》，其中有 97 个非常不错的编程方面的建议。这篇文章是比较经典的，别被“97”这个数字吓住，你可以快速浏览一下，会让你有不同感觉的。另外，在工作一段时间后再来读，你会更有感觉。
+
+```
+97 Things Every Programmer Should Know
+
+https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/index.html
+
+```
 
 ##  英文能力
 
@@ -59,6 +66,34 @@ https://www.rong-chang.com/
 ```
 
 ##  问问题的能力
+
+提问的智慧 （**How to Ask Questions The Smart Way**）一文最早是由 Eric Steven Ryanmond 所撰写的，详细描述了发问者事前应该做好什么，而什么又是不该做的。作者认为这样能让问题容易令人理解，而且发问者自己也能学到较多东西。
+
+此文一经发出，被广泛转载并奉为经典。该文也由 **简体中文翻译版** 被流传着，所以在华人界也是篇很有名的文章。由两个著名的缩写 STFW（Search the fxxking web） 以及 RTFM（Read the fxxking manual）就是出自本文。
+
+另外，还有一个经典的问题叫 **"X-Y  Problem"**。 对我来说，这是一个容易犯的错误，所以，你也要小心避免（我曾经在我的 CoolShell 上写过这个事 《**X-Y 故事**》）。
+
+然后，你可以到 StackOverflow 上看看如何问问题的一些提示 —— "**FAQ for StackExechange Site**"。
+
+作为一个程序员，不做伸手党，你必须要读一读这几篇文章，并努力践行。
+
+```
+How to Ask Questions The Smart Way
+http://www.catb.org/~esr/faqs/smart-questions.html
+
+提问的智慧 简体中文翻译版
+http://doc.zengrong.net/smart-questions/cn.html
+
+X-Y  Problem
+https://xyproblem.info/
+
+X-Y 故事
+https://coolshell.cn/articles/10804.html
+
+FAQ for StackExechange Site
+https://meta.stackexchange.com/questions/7931/faq-for-stack-exchange-sites
+
+```
 
 
 ##  写代码的能力
