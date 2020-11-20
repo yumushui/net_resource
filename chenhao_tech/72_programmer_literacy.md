@@ -372,23 +372,121 @@ http://crockford.com/javascript/code.html
 
 ###  PHP 语言
 
++ **PHP FIG**，PHP编码规范以及标准推荐。
++ **PHP The Right Way**，除了编码规范之外的各种 PHP 的最佳实践，还包括一些设计模式，安全问题，以及服务部署，Docker 虚拟化以及各种资源。
++ **Clean Code PHP**，《代码整洁之道》的 PHP 实践。
+
+```
+PHP FIG
+http://www.php-fig.org/psr/
+
+PHP The Right Way
+http://www.phptherightway.com/
+
+Clean Code PHP
+https://github.com/jupeter/clean-code-php
+```
+
 ###  Python 语言
+
++ **Style Guide for Python Code**，Python 官方的编程码规范。
++ **Google Python Style Guide**，Google 公司的 Python 编码规范。
++ **The Hitchhiker's Guide to Python**，这不只是 Python 的编程规范，还是 Python 资源的集散地，强烈推荐。
+
+```
+Style Guide for Python Code
+https://www.python.org/dev/peps/pep-0008/
+
+Google Python Style Guide
+https://google.github.io/styleguide/pyguide.html
+
+The Hitchhiker's Guide to Python
+http://docs.python-guide.org/en/latest/
+
+```
 
 ###  Ruby 语言
 
++ **Ruby Style Guide**，Airbnb 公司的 Ruby 编程规范。
++ **Ruby Style Guide**。
+
+```
+Ruby Style Guide
+https://github.com/airbnb/ruby
+
+Ruby Style Guide
+https://github.com/rubocop-hq/ruby-style-guide
+
+```
+
 ###  Rust 语言
+
++ **Rust Style Guide**。
++ **Rust Guidelines**，开源社区里最好的 Rust 编程规范。
+
+```
+Rust Style Guide
+https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md
+
+Rust Guidelines
+http://aturon.github.io/
+
+```
+
 
 ###  Scala 语言
 
++ **Scala Style Guide**，Scala 官方的编程规范。
++ **Databricks Scala Guide**，Databricks 的 Scala 编程规范。
++ **Scala Best Practices**。
+
+```
+Scala Style Guide
+https://docs.scala-lang.org/style/
+
+Databricks Scala Guide
+https://github.com/databricks/scala-style-guide
+
+Scala Best Practices
+https://github.com/alexandru/scala-best-practices
+
+```
+
 ###  Shell 语言
+
++ **Google Shell Style Guide**，Google 的 Shell 脚本编程规范。
+
+```
+Google Shell Style Guide
+https://google.github.io/styleguide/shellguide.html
+
+```
 
 ###  Node.js 语言
 
++ **npm-coding-style**。
++ **Microsoft + Node.js Guidelindes**。
++ **Node.js Style Guide**。
+
+```
+npm-coding-style
+https://docs.npmjs.com/misc/coding-style
+
+Microsoft + Node.js Guidelindes
+https://github.com/Microsoft/nodejs-guidelines
+
+Node.js Style Guide
+https://github.com/felixge/node-style-guide
+
+```
 
 ###  Mozilla 的编程规范
 
++ **Mozilla Coding Style Guide**，其中包括 C、C++、Java、Python、Javascript、Makefile 和 SVG 等编程规范。
 
 ##  前端开发相关
+
+
 
 ##  移动端相关
 
