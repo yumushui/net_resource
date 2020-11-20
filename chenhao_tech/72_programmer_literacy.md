@@ -484,27 +484,226 @@ https://github.com/felixge/node-style-guide
 
 + **Mozilla Coding Style Guide**，其中包括 C、C++、Java、Python、Javascript、Makefile 和 SVG 等编程规范。
 
+```
+Mozilla Coding Style Guide
+https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style
+
+```
+
 ##  前端开发相关
 
++ **CSS Guidelines**，CSS 容易学，但是不好写，这篇规范回教你如何写出一个健全的、可管理的，并可扩展的 CSS。
++ **Scalable and Modular Architecture for CSS**，这是一本教你如何写出可扩展和模块化的 CSS 的电子书，非常不错。
++ **Frontend Guidelines**，一些和 HTML、CSS、JavaScript 相关的最佳实践。
++ **Sass Guidelines**，Sass 作为 CSS 的补充，其要让 CSS 变得更容易扩展。然而，也变得更灵活，这意味着可以更容易被滥用。这里这篇“富有主见”的规范值得一读。
++ **Airbnb CSS/Sass Styleguide**，Airbnb 的 CSS/Sass规范。
++ 说了 Sass 就不得不说 LESS，这里有几篇和 LESS 相关的： **LESS Coding Guidelines**、**LESS Coding Guidelines**、**LESS coding standard**。
++ **HTML Style Guide**，一个教你如何写出性能更高，结构更好，容易编程和扩展的 HTML 的规范。
++ **HTML + CSS Code Guide**，如何写出比较灵活、耐用、可持续改进的 HTML 和 CSS 的规范。
++ **CoffeeScript Style Guide**，CoffeeScript的最佳实践和编程规范。
++ **Google HTML/CSS Style Guide**，响应式 Web 设计的规范和最佳实践。
++ **Guidelines for Respinsive Web Design**，响应式 Web 设计的规范和最佳实践。
++ **U.S. Web Desgin Standards**，这是美国政府网端要求的一些 UI 交互可视化的一些规范。
 
+最后是一个前端开发的各种注意事项列表，非常有用。
+
++ **Front-End checklist**，一个前端开发的 Checklist，其中包括 HTML、CSS 和 JavaScript，还和 图片、字体、SEO、性能相关，还包括一些和安全相关的事项，这个列表真的太好用了。
+
+```
+CSS Guidelines
+https://cssguidelin.es/
+
+Scalable and Modular Architecture for CSS
+https://smacss.com/
+
+Frontend Guidelines
+https://github.com/bendc/frontend-guidelines
+
+Sass Guidelines
+https://cssguidelin.es/
+
+Airbnb CSS/Sass Styleguide
+https://smacss.com/
+
+LESS Coding Guidelines
+https://github.com/bendc/frontend-guidelines
+
+LESS Coding Guidelines
+https://github.com/odoo/odoo/wiki/LESS-coding-guidelines
+
+LESS coding standard
+https://devdocs.magento.com/guides/v2.3/coding-standards/code-standard-less.html
+
+HTML Style Guide
+https://github.com/marcobiedermann/html-style-guide
+
+HTML + CSS Code Guide
+http://codeguide.co/
+
+CoffeeScript Style Guide
+https://github.com/polarmobile/coffeescript-style-guide
+
+Google HTML/CSS Style Guide
+https://google.github.io/styleguide/htmlcssguide.html
+
+Guidelines for Respinsive Web Design
+https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
+
+U.S. Web Desgin Standards
+https://standards.usa.gov/
+
+Front-End checklist
+https://github.com/thedaviddias/Front-End-Checklist
+
+```
 
 ##  移动端相关
 
 ###  Kotlin
 
++ **Coding Conventions**。
+
+```
+Coding Conventions
+https://kotlinlang.org/docs/reference/coding-conventions.html
+
+```
+
 ###  Objective-C 语言
+
++ **Objective-C Style guide**,Style guide & coding conventions for Objective-C projects。
++ **Google Objective-C Style Guide**。
++ **NYTimes Objective-C Style Guide**，The Objective-C Style Guide used by the New York Times。
+
+```
+Objective-C Style guide
+https://github.com/github/objective-c-style-guide
+
+Google Objective-C Style Guide
+https://google.github.io/styleguide/objcguide.xml
+
+NYTimes Objective-C Style Guide
+https://github.com/NYTimes/objective-c-style-guide
+
+```
 
 ###  Swift 语言
 
++ **API Design Guidelines**。
++ **Swift** —— 一个 Swift 的相关编程规范的教程。
++ **Swift style guide**。
++ **Swift Style Guide** —— LinkedIn 的官方 Swift 编程规范。
++ **Metova's Swift style guide**。
++ **Xmartlabs Swift Style Guide**，Xmartlabs 的 Swift 编程规范。
+
+```
+API Design Guidelines
+https://swift.org/documentation/api-design-guidelines/
+
+Swift
+https://github.com/github/swift-style-guide
+
+Swift style guide
+https://github.com/raywenderlich/swift-style-guide
+
+Swift Style Guide
+https://github.com/linkedin/swift-style-guide
+
+Metova's Swift style guide
+https://github.com/metova/swift-style-guide
+
+Xmartlabs Swift Style Guide
+https://github.com/xmartlabs/Swift-Style-Guide
+
+```
+
 ##  API 相关
+
++ **HAL**，一个简单的 API 规范教程。
++ **Microsoft REST API Guidelines**，微软的 Rest API 规范。
++ **API Design Guide**。
++ **RESTful API Designing guidelines - The best practices**。
++ **JSON API - Recommendations**，JSON 相关的 API 的一些推荐实践。
++ **API Security Checklist**， API 的安全问题的检查列表。
+
+```
+HAL
+http://stateless.co/hal_specification.html
+
+Microsoft REST API Guidelines
+https://github.com/Microsoft/api-guidelines
+
+API Design Guide
+http://apiguide.readthedocs.io/en/latest/
+
+RESTful API Designing guidelines - The best practices
+https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
+
+JSON API - Recommendations
+http://jsonapi.org/recommendations
+
+API Security Checklist
+https://github.com/shieldfy/API-Security-Checklist
+
+```
 
 ##  开发工具相关
 
 ###  Markdown 相关
 
++ **Google Markdown Style Guide**。
++ **Markdown Style Guide**。
+
+```
+Google Markdown Style Guide
+https://github.com/google/styleguide/blob/gh-pages/docguide/style.md
+
+Markdown Style Guide
+http://www.cirosantilli.com/markdown-style-guide/
+
+```
+
 ###  JSON
+
++ **Google JSON Style Guide**。
++ **JSON Style Guide**。
+
+```
+Google JSON Style Guide
+https://google.github.io/styleguide/jsoncstyleguide.xml
+
+JSON Style Guide
+https://www.w3resource.com/slides/json-style-guide.php
+
+```
 
 ###  Git 相关
 
++ **Git Style Guide**。
++ **Few Rules from Git Documentation**。
+
+```
+Git Style Guide
+https://github.com/agis/git-style-guide
+
+Few Rules from Git Documentation
+https://github.com/git/git/blob/master/Documentation/CodingGuidelines
+
+```
+
 ###  正则表达式相关
+
++ **RegexHQ**。
++ **Learn regex the easy way**。
+
+```
+RegexHQ 
+https://github.com/regexhq
+
+Learn regex the easy way
+https://github.com/ziishaned/learn-regex
+
+```
+
+
 
